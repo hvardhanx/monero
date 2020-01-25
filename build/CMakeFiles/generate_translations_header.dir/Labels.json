@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/hvardhan/Projects/challenge/build/CMakeFiles/generate_translations_header"
+		},
+		{
+			"file" : "/Users/hvardhan/Projects/challenge/build/CMakeFiles/generate_translations_header.rule"
+		},
+		{
+			"file" : "/Users/hvardhan/Projects/challenge/build/CMakeFiles/generate_translations_header-complete.rule"
+		},
+		{
+			"file" : "/Users/hvardhan/Projects/challenge/build/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-install.rule"
+		},
+		{
+			"file" : "/Users/hvardhan/Projects/challenge/build/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-mkdir.rule"
+		},
+		{
+			"file" : "/Users/hvardhan/Projects/challenge/build/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-download.rule"
+		},
+		{
+			"file" : "/Users/hvardhan/Projects/challenge/build/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-update.rule"
+		},
+		{
+			"file" : "/Users/hvardhan/Projects/challenge/build/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-patch.rule"
+		},
+		{
+			"file" : "/Users/hvardhan/Projects/challenge/build/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-configure.rule"
+		},
+		{
+			"file" : "/Users/hvardhan/Projects/challenge/build/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"generate_translations_header"
+		],
+		"name" : "generate_translations_header"
+	}
+}

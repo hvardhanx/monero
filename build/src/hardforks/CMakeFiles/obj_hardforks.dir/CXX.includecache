@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hvardhan/Projects/challenge/src/hardforks/hardforks.cpp
+hardforks.h
+/Users/hvardhan/Projects/challenge/src/hardforks/hardforks.h
+
+/Users/hvardhan/Projects/challenge/src/hardforks/hardforks.h
+stdint.h
+-
+time.h
+-
+

@@ -1,0 +1,9 @@
+ARG tag
+FROM monero-base
+
+# set permissions to to-be-mounted volume
+RUN mkdir /home/monero/monero-node-data && chown -R monero /home/monero/monero-node-data
+USER monero
+
+# start the node
+ENTRYPOINT monerod --config-file /monero-run/node.conf --non-interactive

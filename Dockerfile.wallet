@@ -1,0 +1,9 @@
+ARG tag
+FROM monero-base
+
+# set permissions to to-be-mounted volume
+RUN mkdir /home/monero/monero-wallet-data && chown -R monero /home/monero/monero-wallet-data
+USER monero
+
+# start the wallet
+ENTRYPOINT monero-wallet-rpc --config-file /monero-run/wallet.conf

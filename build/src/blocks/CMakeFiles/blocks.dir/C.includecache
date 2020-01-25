@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hvardhan/Projects/challenge/build/src/blocks/generated_checkpoints.c
+stddef.h
+-
+
+/Users/hvardhan/Projects/challenge/build/src/blocks/generated_stagenet_blocks.c
+stddef.h
+-
+
+/Users/hvardhan/Projects/challenge/build/src/blocks/generated_testnet_blocks.c
+stddef.h
+-
+

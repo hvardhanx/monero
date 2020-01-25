@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/version.h
+
+/Users/hvardhan/Projects/challenge/build/version.cpp
+version.h
+/Users/hvardhan/Projects/challenge/build/version.h
+

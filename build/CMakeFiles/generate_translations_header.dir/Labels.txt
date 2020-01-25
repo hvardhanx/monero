@@ -1,0 +1,13 @@
+# Target labels
+ generate_translations_header
+# Source files and their labels
+/Users/hvardhan/Projects/challenge/build/CMakeFiles/generate_translations_header
+/Users/hvardhan/Projects/challenge/build/CMakeFiles/generate_translations_header.rule
+/Users/hvardhan/Projects/challenge/build/CMakeFiles/generate_translations_header-complete.rule
+/Users/hvardhan/Projects/challenge/build/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-install.rule
+/Users/hvardhan/Projects/challenge/build/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-mkdir.rule
+/Users/hvardhan/Projects/challenge/build/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-download.rule
+/Users/hvardhan/Projects/challenge/build/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-update.rule
+/Users/hvardhan/Projects/challenge/build/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-patch.rule
+/Users/hvardhan/Projects/challenge/build/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-configure.rule
+/Users/hvardhan/Projects/challenge/build/generate_translations_header-prefix/src/generate_translations_header-stamp/generate_translations_header-build.rule

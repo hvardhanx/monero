@@ -1,0 +1,149 @@
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Apple clang version 11.0.0 (clang-1100.0.33.8)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Determining if the function explicit_bzero exists in the c failed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a27db/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a27db.dir/build.make CMakeFiles/cmTC_a27db.dir/build
+Building C object CMakeFiles/cmTC_a27db.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=explicit_bzero -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_a27db.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a27db
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a27db.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=explicit_bzero -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a27db.dir/CheckFunctionExists.c.o  -o cmTC_a27db   -L/Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/strings.h  -Wl,-rpath,/Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/strings.h -lc 
+ld: warning: directory not found for option '-L/Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/strings.h'
+Undefined symbols for architecture x86_64:
+  "_explicit_bzero", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_a27db] Error 1
+make: *** [cmTC_a27db/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test _fstack_clash_protection_c failed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a996e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a996e.dir/build.make CMakeFiles/cmTC_a996e.dir/build
+Building C object CMakeFiles/cmTC_a996e.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fstack_clash_protection_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fstack-clash-protection -o CMakeFiles/cmTC_a996e.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-fstack-clash-protection'
+make[1]: *** [CMakeFiles/cmTC_a996e.dir/src.c.o] Error 1
+make: *** [cmTC_a996e/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fstack_clash_protection_cxx failed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e5e20/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e5e20.dir/build.make CMakeFiles/cmTC_e5e20.dir/build
+Building CXX object CMakeFiles/cmTC_e5e20.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fstack_clash_protection_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fstack-clash-protection -o CMakeFiles/cmTC_e5e20.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-fstack-clash-protection'
+make[1]: *** [CMakeFiles/cmTC_e5e20.dir/src.cxx.o] Error 1
+make: *** [cmTC_e5e20/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _mmitigate_rop_c failed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_21f26/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_21f26.dir/build.make CMakeFiles/cmTC_21f26.dir/build
+Building C object CMakeFiles/cmTC_21f26.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_mmitigate_rop_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -mmitigate-rop -o CMakeFiles/cmTC_21f26.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mmitigate-rop'
+make[1]: *** [CMakeFiles/cmTC_21f26.dir/src.c.o] Error 1
+make: *** [cmTC_21f26/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _mmitigate_rop_cxx failed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c09fe/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c09fe.dir/build.make CMakeFiles/cmTC_c09fe.dir/build
+Building CXX object CMakeFiles/cmTC_c09fe.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_mmitigate_rop_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -mmitigate-rop -o CMakeFiles/cmTC_c09fe.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-mmitigate-rop'
+make[1]: *** [CMakeFiles/cmTC_c09fe.dir/src.cxx.o] Error 1
+make: *** [cmTC_c09fe/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Determining if the -Wl,-z,relro linker flag is supported failed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0de00/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0de00.dir/build.make CMakeFiles/cmTC_0de00.dir/build
+Building C object CMakeFiles/cmTC_0de00.dir/CheckLinkerFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-z,relro  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -Wl,-z,relro -o CMakeFiles/cmTC_0de00.dir/CheckLinkerFlag.c.o   -c /Users/hvardhan/Projects/challenge/cmake/CheckLinkerFlag.c
+clang: warning: -Wl,-z,relro: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -Wl,-z,relro: 'linker' input unused [-Wunused-command-line-argument]
+Linking C executable cmTC_0de00
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0de00.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Wl,-z,relro  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0de00.dir/CheckLinkerFlag.c.o  -o cmTC_0de00 
+ld: unknown option: -z
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_0de00] Error 1
+make: *** [cmTC_0de00/fast] Error 2
+
+
+
+Determining if the -Wl,-z,now linker flag is supported failed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_63e14/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_63e14.dir/build.make CMakeFiles/cmTC_63e14.dir/build
+Building C object CMakeFiles/cmTC_63e14.dir/CheckLinkerFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-z,now  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -Wl,-z,now -o CMakeFiles/cmTC_63e14.dir/CheckLinkerFlag.c.o   -c /Users/hvardhan/Projects/challenge/cmake/CheckLinkerFlag.c
+clang: warning: -Wl,-z,now: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -Wl,-z,now: 'linker' input unused [-Wunused-command-line-argument]
+Linking C executable cmTC_63e14
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63e14.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Wl,-z,now  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_63e14.dir/CheckLinkerFlag.c.o  -o cmTC_63e14 
+ld: unknown option: -z
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_63e14] Error 1
+make: *** [cmTC_63e14/fast] Error 2
+
+
+
+Determining if the -Wl,-z,noexecstack linker flag is supported failed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_46c9b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_46c9b.dir/build.make CMakeFiles/cmTC_46c9b.dir/build
+Building C object CMakeFiles/cmTC_46c9b.dir/CheckLinkerFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-z,noexecstack  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -Wl,-z,noexecstack -o CMakeFiles/cmTC_46c9b.dir/CheckLinkerFlag.c.o   -c /Users/hvardhan/Projects/challenge/cmake/CheckLinkerFlag.c
+clang: warning: -Wl,-z,noexecstack: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -Wl,-z,noexecstack: 'linker' input unused [-Wunused-command-line-argument]
+Linking C executable cmTC_46c9b
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46c9b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Wl,-z,noexecstack  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_46c9b.dir/CheckLinkerFlag.c.o  -o cmTC_46c9b 
+ld: unknown option: -z
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_46c9b] Error 1
+make: *** [cmTC_46c9b/fast] Error 2
+
+
+
+Determining if the -Wl,-z,noexecheap linker flag is supported failed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9aadf/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9aadf.dir/build.make CMakeFiles/cmTC_9aadf.dir/build
+Building C object CMakeFiles/cmTC_9aadf.dir/CheckLinkerFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-z,noexecheap  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -Wl,-z,noexecheap -o CMakeFiles/cmTC_9aadf.dir/CheckLinkerFlag.c.o   -c /Users/hvardhan/Projects/challenge/cmake/CheckLinkerFlag.c
+clang: warning: -Wl,-z,noexecheap: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -Wl,-z,noexecheap: 'linker' input unused [-Wunused-command-line-argument]
+Linking C executable cmTC_9aadf
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9aadf.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Wl,-z,noexecheap  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9aadf.dir/CheckLinkerFlag.c.o  -o cmTC_9aadf 
+ld: unknown option: -z
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_9aadf] Error 1
+make: *** [cmTC_9aadf/fast] Error 2
+
+
+

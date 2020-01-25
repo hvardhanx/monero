@@ -1,0 +1,1639 @@
+The system is: Darwin - 19.0.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/hvardhan/Projects/challenge/build/CMakeFiles/3.16.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: ;-O0
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/hvardhan/Projects/challenge/build/CMakeFiles/3.16.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8a02e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8a02e.dir/build.make CMakeFiles/cmTC_8a02e.dir/build
+Building C object CMakeFiles/cmTC_8a02e.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_8a02e.dir/testCCompiler.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_8a02e
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a02e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8a02e.dir/testCCompiler.c.o  -o cmTC_8a02e 
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_edc6c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_edc6c.dir/build.make CMakeFiles/cmTC_edc6c.dir/build
+Building C object CMakeFiles/cmTC_edc6c.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -v -Wl,-v -o CMakeFiles/cmTC_edc6c.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CMakeCCompilerABI.c
+Apple clang version 11.0.0 (clang-1100.0.33.8)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 512.4 -v -coverage-notes-file /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_edc6c.dir/CMakeCCompilerABI.c.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_edc6c.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 11.0.0 (clang-1100.0.33.8) default target x86_64-apple-darwin19.0.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_edc6c
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edc6c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_edc6c.dir/CMakeCCompilerABI.c.o  -o cmTC_edc6c 
+Apple clang version 11.0.0 (clang-1100.0.33.8)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_edc6c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_edc6c.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-512.4
+BUILD 14:16:54 Aug 26 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_edc6c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_edc6c.dir/build.make CMakeFiles/cmTC_edc6c.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_edc6c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -v -Wl -v -o CMakeFiles/cmTC_edc6c.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.8)]
+  ignore line: [Target: x86_64-apple-darwin19.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 512.4 -v -coverage-notes-file /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_edc6c.dir/CMakeCCompilerABI.c.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_edc6c.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 11.0.0 (clang-1100.0.33.8) default target x86_64-apple-darwin19.0.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_edc6c]
+  ignore line: [/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edc6c.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_edc6c.dir/CMakeCCompilerABI.c.o  -o cmTC_edc6c ]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.8)]
+  ignore line: [Target: x86_64-apple-darwin19.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_edc6c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_edc6c.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_edc6c] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_edc6c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_348be/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_348be.dir/build.make CMakeFiles/cmTC_348be.dir/build
+Building CXX object CMakeFiles/cmTC_348be.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_348be.dir/testCXXCompiler.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_348be
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_348be.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_348be.dir/testCXXCompiler.cxx.o  -o cmTC_348be 
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b062d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b062d.dir/build.make CMakeFiles/cmTC_b062d.dir/build
+Building CXX object CMakeFiles/cmTC_b062d.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -v -Wl,-v -o CMakeFiles/cmTC_b062d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Apple clang version 11.0.0 (clang-1100.0.33.8)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 512.4 -v -coverage-notes-file /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_b062d.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -O0 -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_b062d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 11.0.0 (clang-1100.0.33.8) default target x86_64-apple-darwin19.0.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/c++/v1"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_b062d
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b062d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_b062d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b062d 
+Apple clang version 11.0.0 (clang-1100.0.33.8)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_b062d -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b062d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-512.4
+BUILD 14:16:54 Aug 26 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_b062d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b062d.dir/build.make CMakeFiles/cmTC_b062d.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_b062d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -v -Wl -v -o CMakeFiles/cmTC_b062d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.8)]
+  ignore line: [Target: x86_64-apple-darwin19.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 512.4 -v -coverage-notes-file /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_b062d.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -O0 -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_b062d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 11.0.0 (clang-1100.0.33.8) default target x86_64-apple-darwin19.0.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/c++/v1"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_b062d]
+  ignore line: [/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b062d.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_b062d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b062d ]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.8)]
+  ignore line: [Target: x86_64-apple-darwin19.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_b062d -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b062d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-no_deduplicate] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b062d] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_b062d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+Apple clang version 11.0.0 (clang-1100.0.33.8)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Determining if the function memset_s exists in the c passed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c7294/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c7294.dir/build.make CMakeFiles/cmTC_c7294.dir/build
+Building C object CMakeFiles/cmTC_c7294.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset_s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_c7294.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c7294
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7294.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memset_s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c7294.dir/CheckFunctionExists.c.o  -o cmTC_c7294   -L/Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/string.h  -Wl,-rpath,/Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/string.h -lc 
+ld: warning: directory not found for option '-L/Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/string.h'
+
+
+
+Determining if the function strptime exists passed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_080c9/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_080c9.dir/build.make CMakeFiles/cmTC_080c9.dir/build
+Building C object CMakeFiles/cmTC_080c9.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strptime -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_080c9.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_080c9
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_080c9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strptime -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_080c9.dir/CheckFunctionExists.c.o  -o cmTC_080c9 
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bd745/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bd745.dir/build.make CMakeFiles/cmTC_bd745.dir/build
+Building C object CMakeFiles/cmTC_bd745.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_bd745.dir/CheckIncludeFile.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bd745
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd745.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bd745.dir/CheckIncludeFile.c.o  -o cmTC_bd745 
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3afaa/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3afaa.dir/build.make CMakeFiles/cmTC_3afaa.dir/build
+Building C object CMakeFiles/cmTC_3afaa.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3afaa.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3afaa
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3afaa.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3afaa.dir/src.c.o  -o cmTC_3afaa 
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6d10b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6d10b.dir/build.make CMakeFiles/cmTC_6d10b.dir/build
+Building C object CMakeFiles/cmTC_6d10b.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_6d10b.dir/CheckSymbolExists.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6d10b
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d10b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6d10b.dir/CheckSymbolExists.c.o  -o cmTC_6d10b 
+
+
+File /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test _maes_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6059a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6059a.dir/build.make CMakeFiles/cmTC_6059a.dir/build
+Building CXX object CMakeFiles/cmTC_6059a.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_maes_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -maes -o CMakeFiles/cmTC_6059a.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6059a
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6059a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_maes_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6059a.dir/src.cxx.o  -o cmTC_6059a 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _maes_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09d98/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_09d98.dir/build.make CMakeFiles/cmTC_09d98.dir/build
+Building C object CMakeFiles/cmTC_09d98.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_maes_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -maes -o CMakeFiles/cmTC_09d98.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_09d98
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09d98.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_maes_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_09d98.dir/src.c.o  -o cmTC_09d98 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_SSSE3 succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_90ec1/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_90ec1.dir/build.make CMakeFiles/cmTC_90ec1.dir/build
+Building C object CMakeFiles/cmTC_90ec1.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -DHAVE_SSSE3 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -mssse3 -o CMakeFiles/cmTC_90ec1.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_90ec1
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90ec1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -DHAVE_SSSE3 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_90ec1.dir/src.c.o  -o cmTC_90ec1 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_AVX2 succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2e604/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2e604.dir/build.make CMakeFiles/cmTC_2e604.dir/build
+Building C object CMakeFiles/cmTC_2e604.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -DHAVE_AVX2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -mavx2 -o CMakeFiles/cmTC_2e604.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2e604
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e604.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -DHAVE_AVX2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2e604.dir/src.c.o  -o cmTC_2e604 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e2849/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e2849.dir/build.make CMakeFiles/cmTC_e2849.dir/build
+Building CXX object CMakeFiles/cmTC_e2849.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -DHAVE_CXX_ATOMICS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e2849.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e2849
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2849.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -DHAVE_CXX_ATOMICS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e2849.dir/src.cxx.o  -o cmTC_e2849 
+
+
+Source file was:
+
+#include <cstdint>
+#include <atomic>
+int main() {
+  std::atomic<uint64_t> a;
+  a.is_lock_free();
+}
+Performing C SOURCE FILE Test CC_SUPPORTS_MARCH_NATIVE succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8231/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e8231.dir/build.make CMakeFiles/cmTC_e8231.dir/build
+Building C object CMakeFiles/cmTC_e8231.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCC_SUPPORTS_MARCH_NATIVE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_e8231.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e8231
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8231.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCC_SUPPORTS_MARCH_NATIVE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e8231.dir/src.c.o  -o cmTC_e8231 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _Wformat_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bab1a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bab1a.dir/build.make CMakeFiles/cmTC_bab1a.dir/build
+Building C object CMakeFiles/cmTC_bab1a.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_Wformat_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -Wformat -o CMakeFiles/cmTC_bab1a.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bab1a
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bab1a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_Wformat_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bab1a.dir/src.c.o  -o cmTC_bab1a 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Wformat_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_869c3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_869c3.dir/build.make CMakeFiles/cmTC_869c3.dir/build
+Building CXX object CMakeFiles/cmTC_869c3.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_Wformat_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -Wformat -o CMakeFiles/cmTC_869c3.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_869c3
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_869c3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_Wformat_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_869c3.dir/src.cxx.o  -o cmTC_869c3 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _Wformat_security_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f1772/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f1772.dir/build.make CMakeFiles/cmTC_f1772.dir/build
+Building C object CMakeFiles/cmTC_f1772.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_Wformat_security_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -Wformat-security -o CMakeFiles/cmTC_f1772.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f1772
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1772.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_Wformat_security_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f1772.dir/src.c.o  -o cmTC_f1772 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Wformat_security_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_45438/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_45438.dir/build.make CMakeFiles/cmTC_45438.dir/build
+Building CXX object CMakeFiles/cmTC_45438.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_Wformat_security_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -Wformat-security -o CMakeFiles/cmTC_45438.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_45438
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45438.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_Wformat_security_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_45438.dir/src.cxx.o  -o cmTC_45438 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _fstack_protector_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2459b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2459b.dir/build.make CMakeFiles/cmTC_2459b.dir/build
+Building C object CMakeFiles/cmTC_2459b.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fstack_protector_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fstack-protector -o CMakeFiles/cmTC_2459b.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2459b
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2459b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fstack_protector_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2459b.dir/src.c.o  -o cmTC_2459b 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fstack_protector_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_82879/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_82879.dir/build.make CMakeFiles/cmTC_82879.dir/build
+Building CXX object CMakeFiles/cmTC_82879.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fstack_protector_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fstack-protector -o CMakeFiles/cmTC_82879.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_82879
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82879.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fstack_protector_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_82879.dir/src.cxx.o  -o cmTC_82879 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _fstack_protector_strong_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5e424/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5e424.dir/build.make CMakeFiles/cmTC_5e424.dir/build
+Building C object CMakeFiles/cmTC_5e424.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fstack_protector_strong_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fstack-protector-strong -o CMakeFiles/cmTC_5e424.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5e424
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e424.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fstack_protector_strong_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5e424.dir/src.c.o  -o cmTC_5e424 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fstack_protector_strong_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_68a9c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_68a9c.dir/build.make CMakeFiles/cmTC_68a9c.dir/build
+Building CXX object CMakeFiles/cmTC_68a9c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fstack_protector_strong_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fstack-protector-strong -o CMakeFiles/cmTC_68a9c.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_68a9c
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68a9c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fstack_protector_strong_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_68a9c.dir/src.cxx.o  -o cmTC_68a9c 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_97957/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_97957.dir/build.make CMakeFiles/cmTC_97957.dir/build
+Building C object CMakeFiles/cmTC_97957.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_97957.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_97957
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97957.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_97957.dir/src.c.o  -o cmTC_97957 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7abf1/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7abf1.dir/build.make CMakeFiles/cmTC_7abf1.dir/build
+Building CXX object CMakeFiles/cmTC_7abf1.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_7abf1.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7abf1
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7abf1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7abf1.dir/src.cxx.o  -o cmTC_7abf1 
+
+
+Source file was:
+int main() { return 0; }
+Determining if the -pie linker flag is supported passed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a34f3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a34f3.dir/build.make CMakeFiles/cmTC_a34f3.dir/build
+Building C object CMakeFiles/cmTC_a34f3.dir/CheckLinkerFlag.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -pie  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -pie -o CMakeFiles/cmTC_a34f3.dir/CheckLinkerFlag.c.o   -c /Users/hvardhan/Projects/challenge/cmake/CheckLinkerFlag.c
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+Linking C executable cmTC_a34f3
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a34f3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -pie  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a34f3.dir/CheckLinkerFlag.c.o  -o cmTC_a34f3 
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+
+
+
+Determining if the function rl_copy_text exists passed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_69bf7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_69bf7.dir/build.make CMakeFiles/cmTC_69bf7.dir/build
+Building C object CMakeFiles/cmTC_69bf7.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/usr/local/opt/readline/include  -maes -march=native -fno-strict-aliasing -std=c11 -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-unused-variable -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes  -fPIC  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fcf-protection=full -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=rl_copy_text -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_69bf7.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_69bf7
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69bf7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -std=c11 -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-unused-variable -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes  -fPIC  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fcf-protection=full -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=rl_copy_text -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_69bf7.dir/CheckFunctionExists.c.o  -o cmTC_69bf7  /usr/local/opt/readline/lib/libreadline.dylib 
+
+
+
+Determining if the function rl_filename_completion_function exists passed with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9a163/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9a163.dir/build.make CMakeFiles/cmTC_9a163.dir/build
+Building C object CMakeFiles/cmTC_9a163.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/usr/local/opt/readline/include  -maes -march=native -fno-strict-aliasing -std=c11 -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-unused-variable -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes  -fPIC  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fcf-protection=full -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=rl_filename_completion_function -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9a163.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9a163
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a163.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -std=c11 -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-unused-variable -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes  -fPIC  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fcf-protection=full -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=rl_filename_completion_function -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9a163.dir/CheckFunctionExists.c.o  -o cmTC_9a163  /usr/local/opt/readline/lib/libreadline.dylib 
+
+
+
+Performing C SOURCE FILE Test HAVE_C11 succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_81a20/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_81a20.dir/build.make CMakeFiles/cmTC_81a20.dir/build
+Building C object CMakeFiles/cmTC_81a20.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/usr/local/opt/readline/include  -maes -march=native -fno-strict-aliasing -std=c11 -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-unused-variable -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes  -fPIC  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fcf-protection=full -fno-strict-aliasing -DHAVE_C11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=c11 -o CMakeFiles/cmTC_81a20.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_81a20
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81a20.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -std=c11 -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-unused-variable -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes  -fPIC  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fcf-protection=full -fno-strict-aliasing -DHAVE_C11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_81a20.dir/src.c.o  -o cmTC_81a20  /usr/local/opt/readline/lib/libreadline.dylib 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_90ca2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_90ca2.dir/build.make CMakeFiles/cmTC_90ca2.dir/build
+Building CXX object CMakeFiles/cmTC_90ca2.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_90ca2.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_90ca2
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90ca2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_90ca2.dir/src.cxx.o  -o cmTC_90ca2 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b5ee8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b5ee8.dir/build.make CMakeFiles/cmTC_b5ee8.dir/build
+Building C object CMakeFiles/cmTC_b5ee8.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_b5ee8.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b5ee8
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5ee8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b5ee8.dir/src.c.o  -o cmTC_b5ee8 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42261/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_42261.dir/build.make CMakeFiles/cmTC_42261.dir/build
+Building C object CMakeFiles/cmTC_42261.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_42261.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_42261
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42261.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_42261.dir/src.c.o  -o cmTC_42261 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6fac4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6fac4.dir/build.make CMakeFiles/cmTC_6fac4.dir/build
+Building CXX object CMakeFiles/cmTC_6fac4.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_6fac4.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6fac4
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fac4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6fac4.dir/src.cxx.o  -o cmTC_6fac4 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_53440/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_53440.dir/build.make CMakeFiles/cmTC_53440.dir/build
+Building CXX object CMakeFiles/cmTC_53440.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_53440.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_53440
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53440.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_53440.dir/src.cxx.o  -o cmTC_53440 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_36dae/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_36dae.dir/build.make CMakeFiles/cmTC_36dae.dir/build
+Building C object CMakeFiles/cmTC_36dae.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_36dae.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_36dae
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36dae.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_36dae.dir/src.c.o  -o cmTC_36dae 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f4967/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f4967.dir/build.make CMakeFiles/cmTC_f4967.dir/build
+Building C object CMakeFiles/cmTC_f4967.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_f4967.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f4967
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4967.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f4967.dir/src.c.o  -o cmTC_f4967 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3f973/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3f973.dir/build.make CMakeFiles/cmTC_3f973.dir/build
+Building CXX object CMakeFiles/cmTC_3f973.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_3f973.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3f973
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f973.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3f973.dir/src.cxx.o  -o cmTC_3f973 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a8bf1/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a8bf1.dir/build.make CMakeFiles/cmTC_a8bf1.dir/build
+Building CXX object CMakeFiles/cmTC_a8bf1.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_a8bf1.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a8bf1
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8bf1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a8bf1.dir/src.cxx.o  -o cmTC_a8bf1 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4a9c6/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4a9c6.dir/build.make CMakeFiles/cmTC_4a9c6.dir/build
+Building C object CMakeFiles/cmTC_4a9c6.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_4a9c6.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4a9c6
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a9c6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4a9c6.dir/src.c.o  -o cmTC_4a9c6 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0815e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0815e.dir/build.make CMakeFiles/cmTC_0815e.dir/build
+Building C object CMakeFiles/cmTC_0815e.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_0815e.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0815e
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0815e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0815e.dir/src.c.o  -o cmTC_0815e 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_46505/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_46505.dir/build.make CMakeFiles/cmTC_46505.dir/build
+Building CXX object CMakeFiles/cmTC_46505.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_46505.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_46505
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46505.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_46505.dir/src.cxx.o  -o cmTC_46505 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e6bfe/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e6bfe.dir/build.make CMakeFiles/cmTC_e6bfe.dir/build
+Building CXX object CMakeFiles/cmTC_e6bfe.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_e6bfe.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e6bfe
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6bfe.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e6bfe.dir/src.cxx.o  -o cmTC_e6bfe 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c7808/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c7808.dir/build.make CMakeFiles/cmTC_c7808.dir/build
+Building C object CMakeFiles/cmTC_c7808.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_c7808.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c7808
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7808.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c7808.dir/src.c.o  -o cmTC_c7808 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_72f17/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_72f17.dir/build.make CMakeFiles/cmTC_72f17.dir/build
+Building C object CMakeFiles/cmTC_72f17.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_72f17.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_72f17
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72f17.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_72f17.dir/src.c.o  -o cmTC_72f17 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8acde/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8acde.dir/build.make CMakeFiles/cmTC_8acde.dir/build
+Building CXX object CMakeFiles/cmTC_8acde.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_8acde.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8acde
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8acde.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8acde.dir/src.cxx.o  -o cmTC_8acde 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62281/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_62281.dir/build.make CMakeFiles/cmTC_62281.dir/build
+Building CXX object CMakeFiles/cmTC_62281.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_62281.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_62281
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62281.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_62281.dir/src.cxx.o  -o cmTC_62281 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cf0ef/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cf0ef.dir/build.make CMakeFiles/cmTC_cf0ef.dir/build
+Building C object CMakeFiles/cmTC_cf0ef.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_cf0ef.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cf0ef
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf0ef.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cf0ef.dir/src.c.o  -o cmTC_cf0ef 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8b05/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e8b05.dir/build.make CMakeFiles/cmTC_e8b05.dir/build
+Building C object CMakeFiles/cmTC_e8b05.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_e8b05.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e8b05
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8b05.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e8b05.dir/src.c.o  -o cmTC_e8b05 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_115dc/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_115dc.dir/build.make CMakeFiles/cmTC_115dc.dir/build
+Building CXX object CMakeFiles/cmTC_115dc.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_115dc.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_115dc
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_115dc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_115dc.dir/src.cxx.o  -o cmTC_115dc 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6ed26/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6ed26.dir/build.make CMakeFiles/cmTC_6ed26.dir/build
+Building CXX object CMakeFiles/cmTC_6ed26.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_6ed26.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6ed26
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ed26.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6ed26.dir/src.cxx.o  -o cmTC_6ed26 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_feb72/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_feb72.dir/build.make CMakeFiles/cmTC_feb72.dir/build
+Building C object CMakeFiles/cmTC_feb72.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_feb72.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_feb72
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feb72.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_feb72.dir/src.c.o  -o cmTC_feb72 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_64539/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_64539.dir/build.make CMakeFiles/cmTC_64539.dir/build
+Building C object CMakeFiles/cmTC_64539.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_64539.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_64539
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64539.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_64539.dir/src.c.o  -o cmTC_64539 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_10f8d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_10f8d.dir/build.make CMakeFiles/cmTC_10f8d.dir/build
+Building CXX object CMakeFiles/cmTC_10f8d.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_10f8d.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_10f8d
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10f8d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_10f8d.dir/src.cxx.o  -o cmTC_10f8d 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d161b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d161b.dir/build.make CMakeFiles/cmTC_d161b.dir/build
+Building CXX object CMakeFiles/cmTC_d161b.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_d161b.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d161b
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d161b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d161b.dir/src.cxx.o  -o cmTC_d161b 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_75209/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_75209.dir/build.make CMakeFiles/cmTC_75209.dir/build
+Building C object CMakeFiles/cmTC_75209.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_75209.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_75209
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75209.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_75209.dir/src.c.o  -o cmTC_75209 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_02685/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_02685.dir/build.make CMakeFiles/cmTC_02685.dir/build
+Building C object CMakeFiles/cmTC_02685.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_02685.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_02685
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02685.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_02685.dir/src.c.o  -o cmTC_02685 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8b12a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8b12a.dir/build.make CMakeFiles/cmTC_8b12a.dir/build
+Building CXX object CMakeFiles/cmTC_8b12a.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_8b12a.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8b12a
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b12a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8b12a.dir/src.cxx.o  -o cmTC_8b12a 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a0d7f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a0d7f.dir/build.make CMakeFiles/cmTC_a0d7f.dir/build
+Building CXX object CMakeFiles/cmTC_a0d7f.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_a0d7f.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a0d7f
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0d7f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a0d7f.dir/src.cxx.o  -o cmTC_a0d7f 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_18ad1/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_18ad1.dir/build.make CMakeFiles/cmTC_18ad1.dir/build
+Building C object CMakeFiles/cmTC_18ad1.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_18ad1.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_18ad1
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18ad1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_18ad1.dir/src.c.o  -o cmTC_18ad1 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f116b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f116b.dir/build.make CMakeFiles/cmTC_f116b.dir/build
+Building C object CMakeFiles/cmTC_f116b.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_f116b.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f116b
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f116b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f116b.dir/src.c.o  -o cmTC_f116b 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ee3fa/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ee3fa.dir/build.make CMakeFiles/cmTC_ee3fa.dir/build
+Building CXX object CMakeFiles/cmTC_ee3fa.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_ee3fa.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ee3fa
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee3fa.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ee3fa.dir/src.cxx.o  -o cmTC_ee3fa 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a2688/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a2688.dir/build.make CMakeFiles/cmTC_a2688.dir/build
+Building CXX object CMakeFiles/cmTC_a2688.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_a2688.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a2688
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2688.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a2688.dir/src.cxx.o  -o cmTC_a2688 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c6b91/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c6b91.dir/build.make CMakeFiles/cmTC_c6b91.dir/build
+Building C object CMakeFiles/cmTC_c6b91.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_c6b91.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c6b91
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6b91.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c6b91.dir/src.c.o  -o cmTC_c6b91 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d4a53/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d4a53.dir/build.make CMakeFiles/cmTC_d4a53.dir/build
+Building C object CMakeFiles/cmTC_d4a53.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_d4a53.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d4a53
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4a53.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d4a53.dir/src.c.o  -o cmTC_d4a53 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_610f6/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_610f6.dir/build.make CMakeFiles/cmTC_610f6.dir/build
+Building CXX object CMakeFiles/cmTC_610f6.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_610f6.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_610f6
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_610f6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_610f6.dir/src.cxx.o  -o cmTC_610f6 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5082c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5082c.dir/build.make CMakeFiles/cmTC_5082c.dir/build
+Building CXX object CMakeFiles/cmTC_5082c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_5082c.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5082c
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5082c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5082c.dir/src.cxx.o  -o cmTC_5082c 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ef57/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7ef57.dir/build.make CMakeFiles/cmTC_7ef57.dir/build
+Building C object CMakeFiles/cmTC_7ef57.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_7ef57.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7ef57
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ef57.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7ef57.dir/src.c.o  -o cmTC_7ef57 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0ec2f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0ec2f.dir/build.make CMakeFiles/cmTC_0ec2f.dir/build
+Building C object CMakeFiles/cmTC_0ec2f.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_0ec2f.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0ec2f
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ec2f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0ec2f.dir/src.c.o  -o cmTC_0ec2f 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cfd17/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cfd17.dir/build.make CMakeFiles/cmTC_cfd17.dir/build
+Building CXX object CMakeFiles/cmTC_cfd17.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_cfd17.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cfd17
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfd17.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cfd17.dir/src.cxx.o  -o cmTC_cfd17 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6f4d7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6f4d7.dir/build.make CMakeFiles/cmTC_6f4d7.dir/build
+Building CXX object CMakeFiles/cmTC_6f4d7.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_6f4d7.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6f4d7
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f4d7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6f4d7.dir/src.cxx.o  -o cmTC_6f4d7 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_18c8e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_18c8e.dir/build.make CMakeFiles/cmTC_18c8e.dir/build
+Building C object CMakeFiles/cmTC_18c8e.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_18c8e.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_18c8e
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18c8e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_18c8e.dir/src.c.o  -o cmTC_18c8e 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9dfb5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9dfb5.dir/build.make CMakeFiles/cmTC_9dfb5.dir/build
+Building C object CMakeFiles/cmTC_9dfb5.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_9dfb5.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9dfb5
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dfb5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9dfb5.dir/src.c.o  -o cmTC_9dfb5 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2cc2b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2cc2b.dir/build.make CMakeFiles/cmTC_2cc2b.dir/build
+Building CXX object CMakeFiles/cmTC_2cc2b.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_2cc2b.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2cc2b
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cc2b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2cc2b.dir/src.cxx.o  -o cmTC_2cc2b 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f7961/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f7961.dir/build.make CMakeFiles/cmTC_f7961.dir/build
+Building CXX object CMakeFiles/cmTC_f7961.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_f7961.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f7961
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7961.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f7961.dir/src.cxx.o  -o cmTC_f7961 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c6085/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c6085.dir/build.make CMakeFiles/cmTC_c6085.dir/build
+Building C object CMakeFiles/cmTC_c6085.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_c6085.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c6085
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6085.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c6085.dir/src.c.o  -o cmTC_c6085 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_51607/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_51607.dir/build.make CMakeFiles/cmTC_51607.dir/build
+Building C object CMakeFiles/cmTC_51607.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_51607.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_51607
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51607.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_51607.dir/src.c.o  -o cmTC_51607 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4766e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4766e.dir/build.make CMakeFiles/cmTC_4766e.dir/build
+Building CXX object CMakeFiles/cmTC_4766e.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_4766e.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4766e
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4766e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4766e.dir/src.cxx.o  -o cmTC_4766e 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9311c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9311c.dir/build.make CMakeFiles/cmTC_9311c.dir/build
+Building CXX object CMakeFiles/cmTC_9311c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_9311c.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9311c
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9311c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9311c.dir/src.cxx.o  -o cmTC_9311c 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4192a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4192a.dir/build.make CMakeFiles/cmTC_4192a.dir/build
+Building C object CMakeFiles/cmTC_4192a.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_4192a.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4192a
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4192a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4192a.dir/src.c.o  -o cmTC_4192a 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ef6c5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ef6c5.dir/build.make CMakeFiles/cmTC_ef6c5.dir/build
+Building C object CMakeFiles/cmTC_ef6c5.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_ef6c5.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ef6c5
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef6c5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ef6c5.dir/src.c.o  -o cmTC_ef6c5 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_947ca/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_947ca.dir/build.make CMakeFiles/cmTC_947ca.dir/build
+Building CXX object CMakeFiles/cmTC_947ca.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_947ca.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_947ca
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_947ca.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_947ca.dir/src.cxx.o  -o cmTC_947ca 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ac9cd/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ac9cd.dir/build.make CMakeFiles/cmTC_ac9cd.dir/build
+Building CXX object CMakeFiles/cmTC_ac9cd.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_ac9cd.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ac9cd
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac9cd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ac9cd.dir/src.cxx.o  -o cmTC_ac9cd 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6d091/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6d091.dir/build.make CMakeFiles/cmTC_6d091.dir/build
+Building C object CMakeFiles/cmTC_6d091.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_6d091.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6d091
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d091.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6d091.dir/src.c.o  -o cmTC_6d091 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e1f01/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e1f01.dir/build.make CMakeFiles/cmTC_e1f01.dir/build
+Building C object CMakeFiles/cmTC_e1f01.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_e1f01.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e1f01
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1f01.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e1f01.dir/src.c.o  -o cmTC_e1f01 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a4988/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a4988.dir/build.make CMakeFiles/cmTC_a4988.dir/build
+Building CXX object CMakeFiles/cmTC_a4988.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_a4988.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a4988
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4988.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a4988.dir/src.cxx.o  -o cmTC_a4988 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5272c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5272c.dir/build.make CMakeFiles/cmTC_5272c.dir/build
+Building CXX object CMakeFiles/cmTC_5272c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_5272c.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5272c
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5272c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5272c.dir/src.cxx.o  -o cmTC_5272c 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8d593/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8d593.dir/build.make CMakeFiles/cmTC_8d593.dir/build
+Building C object CMakeFiles/cmTC_8d593.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_8d593.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8d593
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d593.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8d593.dir/src.c.o  -o cmTC_8d593 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_44787/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_44787.dir/build.make CMakeFiles/cmTC_44787.dir/build
+Building C object CMakeFiles/cmTC_44787.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_44787.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_44787
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44787.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_44787.dir/src.c.o  -o cmTC_44787 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5404e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5404e.dir/build.make CMakeFiles/cmTC_5404e.dir/build
+Building CXX object CMakeFiles/cmTC_5404e.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_5404e.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5404e
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5404e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5404e.dir/src.cxx.o  -o cmTC_5404e 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f8ebd/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f8ebd.dir/build.make CMakeFiles/cmTC_f8ebd.dir/build
+Building CXX object CMakeFiles/cmTC_f8ebd.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_f8ebd.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f8ebd
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8ebd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f8ebd.dir/src.cxx.o  -o cmTC_f8ebd 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f9632/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f9632.dir/build.make CMakeFiles/cmTC_f9632.dir/build
+Building C object CMakeFiles/cmTC_f9632.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_f9632.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f9632
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9632.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f9632.dir/src.c.o  -o cmTC_f9632 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1fd20/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1fd20.dir/build.make CMakeFiles/cmTC_1fd20.dir/build
+Building C object CMakeFiles/cmTC_1fd20.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_1fd20.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1fd20
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fd20.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1fd20.dir/src.c.o  -o cmTC_1fd20 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b1824/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b1824.dir/build.make CMakeFiles/cmTC_b1824.dir/build
+Building CXX object CMakeFiles/cmTC_b1824.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_b1824.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b1824
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1824.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b1824.dir/src.cxx.o  -o cmTC_b1824 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab74a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ab74a.dir/build.make CMakeFiles/cmTC_ab74a.dir/build
+Building CXX object CMakeFiles/cmTC_ab74a.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_ab74a.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ab74a
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab74a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ab74a.dir/src.cxx.o  -o cmTC_ab74a 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c039a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c039a.dir/build.make CMakeFiles/cmTC_c039a.dir/build
+Building C object CMakeFiles/cmTC_c039a.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_c039a.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c039a
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c039a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c039a.dir/src.c.o  -o cmTC_c039a 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ec559/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ec559.dir/build.make CMakeFiles/cmTC_ec559.dir/build
+Building C object CMakeFiles/cmTC_ec559.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_ec559.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ec559
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec559.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ec559.dir/src.c.o  -o cmTC_ec559 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0cd69/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0cd69.dir/build.make CMakeFiles/cmTC_0cd69.dir/build
+Building CXX object CMakeFiles/cmTC_0cd69.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_0cd69.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0cd69
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cd69.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0cd69.dir/src.cxx.o  -o cmTC_0cd69 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_24e60/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_24e60.dir/build.make CMakeFiles/cmTC_24e60.dir/build
+Building CXX object CMakeFiles/cmTC_24e60.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_24e60.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_24e60
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24e60.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_24e60.dir/src.cxx.o  -o cmTC_24e60 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_77166/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_77166.dir/build.make CMakeFiles/cmTC_77166.dir/build
+Building C object CMakeFiles/cmTC_77166.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_77166.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_77166
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77166.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_77166.dir/src.c.o  -o cmTC_77166 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c562d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c562d.dir/build.make CMakeFiles/cmTC_c562d.dir/build
+Building C object CMakeFiles/cmTC_c562d.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_c562d.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c562d
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c562d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c562d.dir/src.c.o  -o cmTC_c562d 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ca472/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ca472.dir/build.make CMakeFiles/cmTC_ca472.dir/build
+Building CXX object CMakeFiles/cmTC_ca472.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_ca472.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ca472
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca472.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ca472.dir/src.cxx.o  -o cmTC_ca472 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4ecbb/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4ecbb.dir/build.make CMakeFiles/cmTC_4ecbb.dir/build
+Building CXX object CMakeFiles/cmTC_4ecbb.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_4ecbb.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4ecbb
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ecbb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4ecbb.dir/src.cxx.o  -o cmTC_4ecbb 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8d22a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8d22a.dir/build.make CMakeFiles/cmTC_8d22a.dir/build
+Building C object CMakeFiles/cmTC_8d22a.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_8d22a.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8d22a
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d22a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -D_march=native_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8d22a.dir/src.c.o  -o cmTC_8d22a 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_99a05/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_99a05.dir/build.make CMakeFiles/cmTC_99a05.dir/build
+Building C object CMakeFiles/cmTC_99a05.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_99a05.dir/src.c.o   -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_99a05
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99a05.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_99a05.dir/src.c.o  -o cmTC_99a05 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f888c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f888c.dir/build.make CMakeFiles/cmTC_f888c.dir/build
+Building CXX object CMakeFiles/cmTC_f888c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_f888c.dir/src.cxx.o -c /Users/hvardhan/Projects/challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f888c
+/usr/local/Cellar/cmake/3.16.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f888c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O0 -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f888c.dir/src.cxx.o  -o cmTC_f888c 
+
+
+Source file was:
+int main() { return 0; }

@@ -1,0 +1,64 @@
+FROM alpine:3.10 AS builder
+
+ARG build_jobs=4
+
+# The cppzmq package should be installed from a regular repo as soon as it becomes available.
+RUN apk add --no-cache \
+        binutils       \
+        clang          \
+        clang-dev      \
+        curl           \
+        g++            \
+        libstdc++      \
+        cmake          \
+        libsodium-dev  \
+        make           \
+        musl-dev       \
+        openssh        \
+        openssl-dev    \
+        linux-headers  \
+        zeromq-dev     \
+&&  apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing cppzmq
+
+# Switch to directory to build 
+WORKDIR /tmp
+
+# Download, extract, bootstrap, build and install boost
+RUN curl -L -O https://dl.bintray.com/boostorg/release/1.71.0/source/boost_1_71_0.tar.bz2                     \
+&&  tar -jxf boost_1_71_0.tar.bz2                                                                             \
+&&  cd boost_1_71_0                                                                                           \
+&&  ./bootstrap.sh                                                                                            \
+        --with-toolset=clang                                                                                  \
+        --with-libraries=system,filesystem,thread,date_time,chrono,regex,serialization,program_options,locale \
+&&  ./b2 -j${build_jobs}                                                                                      \
+&&  ./b2 install
+
+# Copy over the source
+COPY . /tmp/monero
+
+# Create build directory, configure and build
+RUN cmake -B monero/build -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang -S /tmp/monero \
+&&  cmake --build monero/build --target daemon -j${build_jobs}                                                              \
+&&  cmake --build monero/build --target wallet_rpc_server -j${build_jobs}
+
+# Copy the generated binaries
+RUN cp monero/build/bin/* /usr/local/bin
+
+FROM alpine:3.10
+
+# The cppzmq package should be installed from a regular repo as soon as it becomes available.
+RUN apk add --no-cache \
+    libsodium          \
+    zeromq             \
+&&  apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing cppzmq
+
+# copy over the boost libraries
+COPY --from=builder /usr/local/lib/libboost_* /usr/local/lib/
+
+# Copy the monero binaries
+COPY --from=builder /usr/local/bin/* /usr/local/bin/
+
+# Create a user to run the finished binaries
+RUN adduser -D monero
+WORKDIR /home/monero
+USER monero
